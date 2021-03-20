@@ -1,0 +1,31 @@
+body{
+    background-image: url("unsplash1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container:nth-of-type(1){flex-grow: 1;}
+.flex-container:nth-of-type(2){flex-grow: 3;}
+
+.login{
+
+    color: wheat;
+    border-radius: 0 30px 0 0;
+    margin: 10px 0px 0px 10px;
+    padding: 20px;
+    /* background-image:linear-gradient(rgba(147, 147, 238,0.5),rgba(238, 147, 147,0.5)); */
+    backdrop-filter: blur(8px);
+    background-size: 500px 400px;
+    width: 500px;
+    height: 450px;
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.37);
+}
+
+.content1{
+    float: right;
+    color: white;
+}
